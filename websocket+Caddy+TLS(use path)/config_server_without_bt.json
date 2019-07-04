@@ -30,6 +30,13 @@
         "tcpSettings": null,
         "tlsSettings": {},
         "security": "none"
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
       }
     }
   ],
